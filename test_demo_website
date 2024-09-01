@@ -1,11 +1,13 @@
-import time
+#we do not need any further packages excapt 
+#python 3.11, selenium
 
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Firefox()
 
-driver.get('https://www.saucedemo.com/v1/index.html')
+driver.get('https://www.saucedemo.com/v1/index.html')  #demo website
 driver.maximize_window()
 web_name = driver.title
 print("Website name is ",web_name)
