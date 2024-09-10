@@ -4,7 +4,7 @@ from selenium.common import NoSuchElementException
 import time
 
 driver = webdriver.Chrome()
-driver.get('')
+driver.get('website')
 driver.maximize_window()
 def is_available(att,abd):
     try:
